@@ -1,0 +1,43 @@
+/* Clase destacado */
+.destacado {
+    background-color: yellow;
+    font-style: italic;
+    padding: 10px;
+}
+
+/* ID para el título principal */
+#tituloPrincipal {
+    font-size: 2.5em;
+    color: darkblue;
+    border: 1px solid black;
+}
+
+/* === Estilos de la tabla === */
+table {
+    border-collapse: collapse;
+    margin-top: 20px;
+    width: 80%;
+}
+
+td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* Colorear filas pares */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Colores de fondo diferentes en cada celda */
+td.azul {
+    background-color: lightblue;
+}
+td.rosa {
+    background-color: pink;
+}
+td.verde {
+    background-color: lightgreen;
+}
